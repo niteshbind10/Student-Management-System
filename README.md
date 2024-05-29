@@ -97,12 +97,6 @@ Open a web browser and navigate to http://localhost/StudentManagementSystem/.<br
 <b>Contributions</b><br>
 Contributions are welcome! Please fork the repository and submit a pull request for review.<br>
 
-<b>License</b><br>
-<p>
-    This project is licensed under the MIT License - see the LICENSE file for details.
-</p><br>
-
-
 <b>Acknowledgements</b><br>
 <a href = "https://www.php.net/">PHP</a><br>
 <a href = "https://www.mysql.com/">MySQL</a>
