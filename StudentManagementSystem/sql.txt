@@ -1,0 +1,20 @@
+First step create database :
+create database students_db;
+
+Second step create table admintable and set username and password for an user:
+create table admintable (username varchar(30),binary_password varchar(20));
+insert into admintable value('Kunj','1234');
+
+third step create table data1 and data: 
+create table data1 (username varchar(30),binary_password varchar(20));
+CREATE TABLE data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    gender ENUM('male', 'female', 'other') NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    number VARCHAR(15) NOT NULL UNIQUE,
+    class VARCHAR(50) NOT NULL,
+    address TEXT NOT NULL
+);
+
+Run all the above queries in MySQL
