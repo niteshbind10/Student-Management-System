@@ -1,21 +1,27 @@
 # Student-Management-System
-Overview
-The Student Management System is a web application developed using PHP, JavaScript, CSS, and HTML5. It allows the admin to perform CRUD (Create, Read, Update, Delete) operations on student data. This project serves as a basic example of how to manage student information within a system and demonstrates key web development concepts and technologies.
+Overview<br><br>
+<p>
+    The Student Management System is a web application developed using PHP, JavaScript, CSS, and HTML5. It allows the admin to perform CRUD (Create, Read, Update, Delete) operations on student data. This project serves as a basic example of how to manage student information within a system and demonstrates key web development concepts and technologies.
+</p><br>
 
-**Features**
---> Admin Authentication: Secure login for admin users.
---> Student Management: Add, view, update, and delete student records.
---> Responsive Design: Accessible on various devices with a responsive design.
---> User Feedback: Provides success and error messages for user actions.
+<b>Features</b><br>
+<ul>
+    <li>Admin Authentication: Secure login for admin users.</li>
+    <li>Student Management: Add, view, update, and delete student records.</li>
+    <li>Responsive Design: Accessible on various devices with a responsive design.</li>
+    <li>User Feedback: Provides success and error messages for user actions.</li>
+</ul><br><br>
 
-**Technologies Used**
---> Backend: PHP
---> Frontend: HTML5, CSS3, JavaScript
---> Database: MySQL
---> Styling: Custom CSS
+<b>Technologies Used</b><br><br>
+<ol>
+    <li>Backend: PHP</li>
+    <li>Frontend: HTML5, CSS3, JavaScript</li>
+    <li>Database: MySQL</li>
+    <li> Styling: Custom CSS</li>
+</ol><br><br>
 
-**Project Structure**
-
+<b>Project Structure</b><br><br>
+<span>
 StudentManagementSystem/
 │
 ├── css/
@@ -33,32 +39,34 @@ StudentManagementSystem/
 ├── system.php
 ├── README.md
 │
-└── sql/
+└── sql
     └── database.sql
+    </span><br>
     
-**Setup Instructions**
-Prerequisites
---> PHP (version 7.4 or higher)
---> MySQL
---> A web server (e.g., Apache)
---> A web browser
+<b>Setup Instructions</b><br><br>
+Prerequisites<br><br>
+<ol>
+    <li>PHP (version 7.4 or higher)</li>
+    <li>MySQL</li>
+    <li>A web server (e.g., Apache)</li>
+    <li>A web browser</li>
+</ol><br>
 
-Installation
+Installation<br><br>
 
-Clone the Repository:
+Clone the Repository:<br><br>
 
-git clone https://github.com/yourusername/StudentManagementSystem.git
-cd StudentManagementSystem
-Database Setup:
+git clone https://github.com/yourusername/StudentManagementSystem.git<br>
+cd StudentManagementSystem<br><br>
+Database Setup:<br>
 
-Create a database named students_db in MySQL.
-Import the provided SQL file to set up the required tables:
-source sql/database.sql;
-Configuration:
+Create a database named students_db in MySQL.<br>
+Import the provided SQL file to set up the required tables:<br>
+source sql/database.sql;<br>
+Configuration:<br>
 
-Update connection.php with your database credentials:
-php
-Copy code
+Update connection.php with your database credentials:<br>
+<p>
 $servername = "localhost";
 $username = "your_db_username";
 $password = "your_db_password";
@@ -67,24 +75,35 @@ Run the Project:
 
 Place the project folder in your web server's root directory (e.g., htdocs for XAMPP).
 Open a web browser and navigate to http://localhost/StudentManagementSystem/.
-Usage
-Admin Login
-1.Navigate to the login page (http://localhost/StudentManagementSystem/login.php).
-2.Enter the admin credentials and click "Login".
-3.Upon successful login, you will be redirected to the admin dashboard.
-**Admin Dashboard**
---> Add Student: Fill in the student details and click "Add".
---> View Students: View the list of all students in the system.
---> Update Student: Click the "Edit" button next to a student record, modify the details, and save.
---> Delete Student: Click the "Delete" button next to a student record to remove it.
+</p><br><br>
 
-**Contributions**
-Contributions are welcome! Please fork the repository and submit a pull request for review.
+<b>Usage</b><br>
+<b>Admin Login<b><br>
+<ol>
+    <li>Navigate to the login page (http://localhost/StudentManagementSystem/login.php).</li>
+    <li>Enter the admin credentials and click "Login".</li>
+    <li>Upon successful login, you will be redirected to the admin dashboard.</li>
+    <li> Styling: Custom CSS</li>
+</ol><br><br>
 
-**License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+<b>Admin Dashboard</b><br>
+<ul>
+    <li>Add Student: Fill in the student details and click "Add".</li>
+    <li>View Students: View the list of all students in the system.</li>
+    <li>Update Student: Click the "Edit" button next to a student record, modify the details, and save.</li>
+    <li>Delete Student: Click the "Delete" button next to a student record to remove it.</li>
+</ul><br><br>
 
-Acknowledgements
-<a href = "https://www.php.net/">PHP</a>
+<b>Contributions</b><br>
+Contributions are welcome! Please fork the repository and submit a pull request for review.<br>
+
+<b>License</b><br>
+<p>
+    This project is licensed under the MIT License - see the LICENSE file for details.
+</p><br>
+
+
+<b>Acknowledgements</b>
+<a href = "https://www.php.net/">PHP</a><br>
 <a href = "https://www.mysql.com/">MySQL</a>
 
